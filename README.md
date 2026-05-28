@@ -5,7 +5,7 @@ This project investigates the optimization of passive heat sink fin arrays using
 
 The study analyzed multiple fin configurations to determine the optimal fin spacing that maximizes heat dissipation while minimizing material usage and airflow restriction.
 
-The project was completed as part of the **MCEN 4231/5231 Computational Fluid Dynamics** course at the University of Colorado Boulder. :contentReference[oaicite:0]{index=0}
+The project was completed as part of the **MCEN 4231/5231 Computational Fluid Dynamics** course at the University of Colorado Boulder. 
 
 ---
 
@@ -28,7 +28,7 @@ The project was completed as part of the **MCEN 4231/5231 Computational Fluid Dy
 
 # Simulation Configurations
 
-Three different fin configurations were studied while maintaining identical base dimensions. :contentReference[oaicite:1]{index=1}
+Three different fin configurations were studied while maintaining identical base dimensions. 
 
 | Configuration | Number of Fins | Fin Spacing | Heat Transfer Rate |
 |---|---|---|---|
@@ -46,7 +46,6 @@ The **10-fin configuration** achieved the best thermal performance:
 - ✅ 18% higher heat transfer than the 13-fin configuration
 - ✅ Optimal balance between airflow and surface area
 
-:contentReference[oaicite:2]{index=2}
 
 ---
 
@@ -64,7 +63,6 @@ The study used a:
 - Crank–Nicolson temporal discretization
 - SUPG & PSPG stabilization methods
 
-:contentReference[oaicite:3]{index=3}
 
 ---
 
@@ -82,7 +80,6 @@ The study used a:
 | Prandtl Number | 0.7215 |
 | Rayleigh Number | 5.69 × 10⁸ |
 
-:contentReference[oaicite:4]{index=4}
 
 ---
 
@@ -101,7 +98,6 @@ The study used a:
 - LU Preconditioner
 - MPI Parallel Processing
 
-:contentReference[oaicite:5]{index=5}
 
 ---
 
@@ -115,7 +111,6 @@ The study used a:
 | Ambient Temperature | 303 K |
 | Fin Temperature | 353 K |
 
-:contentReference[oaicite:6]{index=6}
 
 ---
 
@@ -130,7 +125,6 @@ The study demonstrated that:
 Optimal heat transfer occurred at:
 - Rayleigh Number (RaS) ≈ 1 × 10³ to 3 × 10³
 
-:contentReference[oaicite:7]{index=7}
 
 ---
 
